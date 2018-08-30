@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>bai 1</title>
+</head>
+<body>
+	<script type="text/javascript">
+		alert("Hệ thống sẽ in ra các số fibonaci nhỏ hơn số người dùng nhập vào")
+		let input = Number(prompt("Nhập vào một số bất kỳ"));
+		let a = 0,b =1,c=0;
+		while(c<input){
+			c=a+b;
+			if(c>input) break;
+			document.write(c+ " ");
+			console.log(c + " ");
+			a=b;
+			b=c;
+		};
+	</script>
+</body>
+</html>

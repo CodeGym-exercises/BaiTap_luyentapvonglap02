@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>bai 5</title>
+</head>
+<body>
+	<script type="text/javascript">
+		let tien_ban_dau = Number(prompt("Nhập số tiền ban đầu"));
+		let thang_cho_vay = Number(prompt("Nhập số tháng cho vay"));
+		let lai_suat_thang = Number(prompt("Nhập lãi suất hàng tháng"));
+		let laiSuat=0;
+		for(let i = 0; i<thang_cho_vay;i++)
+		{
+			laiSuat+=tien_ban_dau*lai_suat_thang;
+		}
+		alert("Lãi suất của " + thang_cho_vay + "tháng là " + laiSuat);
+	</script>
+</body>
+</html>
